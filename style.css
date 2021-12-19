@@ -1,0 +1,90 @@
+
+
+
+
+.block{
+display: inline-block;
+color: red;
+width: 100px;
+height: 100px;
+background-color: blue;
+align-items: center;
+justify-content: center;
+margin-left: 300px;
+margin-top: 170px;
+position: absolute;
+}
+
+
+
+
+.block3{
+    display: inline-block;
+color: red;
+width: 250px;
+height: 250px;
+background-color: red;
+justify-content: center;
+align-items: center;
+animation-name: rotate;
+animation-duration: 1s;
+animation-delay: .2s;
+
+animation-iteration-count: infinite;
+
+ margin-top: 150px;
+ margin-left: 700px ;
+position: absolute;
+
+}
+   
+
+
+.block4{
+    display: inline-block;
+    width: 1400px;
+    height: 700px;
+    background-color: yellow;
+    color: yellow;
+}
+
+.block5{
+    position: absolute;
+    background-color: black;
+    color: black;
+    height: 5px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+
+    to {
+        transform: rotate(-180deg);
+    }
+
+
+
+
+
+}
+
+
+
+
+
